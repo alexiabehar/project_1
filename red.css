@@ -1,0 +1,119 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+#container{
+    min-height: 100vh;    
+    display: flex;
+}
+
+.left{
+    width: 50vw;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.right{
+    width: 50%;
+    position: fixed; /* Fix the right section in place */
+    top: 0; /* Align it to the top of the viewport */
+    right: 0; /* Align it to the right edge of the viewport */
+    height: 100vh; /* Ensure it fills the viewport height */
+    background-color: rgb(245, 240, 233);
+}
+
+.instructions{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin-left: 1rem;
+    letter-spacing: -4px;
+    word-spacing: 3px;
+}
+
+.poem{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin-left: 1rem;
+    margin-top: 4rem;
+    letter-spacing: -4px;
+    word-spacing: 3px;
+} 
+
+.whiteout{
+    color: white;
+}
+
+.back{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 38px;
+    color: black;
+    position: absolute;
+    letter-spacing: -4px;
+    word-spacing: 3px;
+    top: 0px;  /* Distance from the top */
+    right: 10px;  /* Distance from the right edge */
+}
+
+
+.table{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    position: absolute;
+    right: 95px;
+    bottom: 100px;
+    text-align: center;
+}
+
+
+td {
+    width: 50px; /* Fixed width */
+    height: 40px; /* Fixed height */
+}
+
+td:hover {
+    border-radius: 70%; /* Rounded corners */
+    transform: scale(1.2); /* Scale effect for zooming */
+    outline: 1px solid black; /* Visible black outline on hover */
+    cursor: pointer;
+}
+
+td:after{
+    border-radius: 70%; /* Rounded corners */
+    transform: scale(1.2); /* Scale effect for zooming */
+    outline: 1px solid black; /* Visible black outline on hover */
+}
+
+.arrow-wrapper {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+}
+
+.arrow {
+    font-size: 50px; /* Adjust as needed */
+    display: inline-block; /* Ensures the arrow behaves like a block and allows for rotation */
+    transform: rotate(90deg); /* Rotate 45 degrees clockwise */
+    transform-origin: center; /* Ensure the rotation is centered */
+}
+
+.arrow-wrapper2 {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    right: 0; /* Position it on the right side */
+    margin-top: -60px;
+}
+
+.arrow2 {
+    font-size: 50px; /* Adjust as needed */
+    display: inline-block;
+    transform: rotate(90deg); /* Rotate the arrow 90 degrees to point down */
+    transform-origin: center; /* Ensure the rotation is centered */
+    margin-top: -20px;
+
+}

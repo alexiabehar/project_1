@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+}
+
+.homepagetext{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    margin-left: 1rem;
+    letter-spacing: -6px;
+}
+
+.bottomtext{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    margin-left: 1rem;
+    letter-spacing: -6px;
+    position: absolute;
+    bottom: 0px;
+    color: inherit;
+    text-decoration: none;
+}
+
